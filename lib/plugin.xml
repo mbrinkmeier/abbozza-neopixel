@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="testplugin">
+   <name>Test-Plugin</name>
+   <description>Dies ist ein einfaches Testplugin</description>
+   <options>
+      <group name="Irgendetwas">
+       	<item name="Erste Option" option="pluginoption" default="true"/>
+        <item name="Zweite Option" option="zeweite" default="true"/>
+     </group>
+   </options>
+   <handler class="Testplugin"/>
+   <js file="blocks.js"/>
+   <feature id="cat.TEST" option="testplugin.enabled">
+      <category name ="Hallo" id="cat.TESTPLUGIN">
+        <block type="teacher_text"/>
+      </category>
+   </feature>
+   <locales>
+       <language id="en">
+            <msg id="cat.TESTPLUGIN">Testplugin</msg>
+            <msg id="gui.task">Task</msg>
+       </language>
+       <language id="de">           
+            <msg id="cat.TESTPLUGIN">Testplugin</msg>
+            <msg id="gui.task">Aufgabe</msg>
+       </language>
+   </locales>
+</plugin>
