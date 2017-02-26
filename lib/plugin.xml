@@ -10,6 +10,7 @@
    </options>
    <handler class="Testplugin"/>
    <js file="blocks.js"/>
+   <js file="testplugin.js"/>
    <feature id="cat.TEST" option="testplugin.enabled">
       <category name ="Hallo" id="cat.TESTPLUGIN">
         <block type="teacher_text"/>
@@ -25,4 +26,9 @@
             <msg id="gui.task">Aufgabe</msg>
        </language>
    </locales>
+   <requirements>
+       <library name="Adafruit NeoPixel"/>
+       <library name="Adafruit NeoMatrix"/>
+   </requirements>
+   <tool name="Testwerkzeug" callback="function() { alert('Werkzeug gestartet'); }" img=""/>
 </plugin>
