@@ -20,15 +20,16 @@
        <language id="en">
             <msg id="cat.TESTPLUGIN">Testplugin</msg>
             <msg id="gui.task">Task</msg>
+            <msg id="gui.testplugin_tool">Testplugin Tool</msg>
        </language>
        <language id="de">           
             <msg id="cat.TESTPLUGIN">Testplugin</msg>
             <msg id="gui.task">Aufgabe</msg>
+            <msg id="gui.testplugin_tool">Testplugin Werkzeug</msg>
        </language>
    </locales>
    <requirements>
        <library name="Adafruit NeoPixel"/>
        <library name="Adafruit NeoMatrix"/>
    </requirements>
-   <tool name="Testwerkzeug" callback="function() { alert('Werkzeug gestartet'); }" img=""/>
 </plugin>
