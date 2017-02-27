@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="abbozzaNeoPixel">
+   <name>NeoPixel-Plugin</name>
+   <description>
+       Dieses abbozza!-Plugin stellt Blöcke zur Nutzung der Adafruit NeoPixel
+       und Adafruit NeoMatrix Bibliotheken zur Verfügung.
+   </description>
+   <js file="blocks.js"/>
+   <feature id="cat.NEOPIXEL" option="abbozzaNeoPixel.enabled">
+      <category name ="NeoPixel" id="cat.NEOPIXEL">
+        <block type="dev_neopixel_strip"/>
+        <block type="dev_neopixel_begin"/>
+        <block type="dev_neopixel_show"/>
+        <block type="dev_neopixel_rgb"/>
+        <block type="dev_neopixel_rgbw"/>
+      </category>
+   </feature>
+   <locales>
+       <language id="en">
+            <msg id="cat.NEOPIXEL">NeoPixel</msg>
+            <msg id="dev.NEOPIXELSTRIP">NeoPixel Strip</msg>
+            <msg id="dev.COUNTLEDS">Number of LEDs</msg>
+            <msg id="dev.FREQUENCY">Frequency</msg>
+            <msg id="dev.CODING">Order of colors</msg>
+            <msg id="dev.NEOPIXEL_BEGIN">Activate strip</msg>
+            <msg id="dev.NEOPIXEL_SHOW">Push data to strip</msg>
+            <msg id="dev.NEOPIXEL_SETCOLOR">On strip # set color of pixel</msg>
+            <msg id="dev.NEOPIXEL_RED">red:</msg>
+            <msg id="dev.NEOPIXEL_GREEN">green:</msg>
+            <msg id="dev.NEOPIXEL_BLUE">blue:</msg>
+            <msg id="dev.NEOPIXEL_WHITE">white: </msg>
+       </language>
+       <language id="de">           
+            <msg id="cat.NEOPIXEL">NeoPixel</msg>
+            <msg id="dev.NEOPIXELSTRIP">NeoPixel Streifen</msg>
+            <msg id="dev.COUNTLEDS">Anzahl der LEDs</msg>
+            <msg id="dev.FREQUENCY">Frequenz</msg>
+            <msg id="dev.CODING">Farbfolge</msg>
+            <msg id="dev.NEOPIXEL_BEGIN">Aktiviere Strip</msg>
+            <msg id="dev.NEOPIXEL_SHOW">Aktualisiere Strip</msg>
+            <msg id="dev.NEOPIXEL_SETCOLOR">Auf Streifen # setze Farbe von Pixel</msg>
+            <msg id="dev.NEOPIXEL_RED">Rot:</msg>
+            <msg id="dev.NEOPIXEL_GREEN">Grün:</msg>
+            <msg id="dev.NEOPIXEL_BLUE">Blau:</msg>
+            <msg id="dev.NEOPIXEL_WHITE">Weiß: </msg>
+       </language>
+   </locales>
+   <requirements>
+       <library name="Adafruit NeoPixel"/>
+       <library name="Adafruit NeoMatrix"/>
+   </requirements>
+</plugin>
