@@ -9,10 +9,11 @@
    <feature id="cat.NEOPIXEL" option="abbozzaNeoPixel.enabled">
       <category name ="NeoPixel" id="cat.NEOPIXEL">
         <block type="dev_neopixel_strip"/>
-        <block type="dev_neopixel_begin"/>
+        <!-- block type="dev_neopixel_begin"/-->
         <block type="dev_neopixel_show"/>
         <block type="dev_neopixel_rgb"/>
         <block type="dev_neopixel_rgbw"/>
+        <block type="dev_neopixel_color"/>
       </category>
    </feature>
    <locales>
