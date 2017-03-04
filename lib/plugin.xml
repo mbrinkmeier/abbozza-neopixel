@@ -49,5 +49,6 @@
    <requirements>
        <library name="Adafruit NeoPixel"/>
        <library name="Adafruit NeoMatrix"/>
+       <library name="Adafruit GFX Library"/>
    </requirements>
 </plugin>
