@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="abbozzaNeoPixel" system="arduino">
+<plugin id="abbozza-neopixel" system="arduino" parent="devices">
    <name>NeoPixel-Plugin</name>
    <description>
        Dieses abbozza!-Plugin stellt Blöcke zur Nutzung der Adafruit NeoPixel
