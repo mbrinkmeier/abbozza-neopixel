@@ -6,7 +6,7 @@
        und Adafruit NeoMatrix Bibliotheken zur Verfügung.
    </description>
    <js file="blocks.js"/>
-   <feature id="cat.NEOPIXEL" option="abbozzaNeoPixel.enabled">
+   <feature id="cat.NEOPIXEL" option="abbozza-neopixel.enabled">
       <category name ="NeoPixel" id="cat.NEOPIXEL">
         <block type="dev_neopixel_strip"/>
         <!-- block type="dev_neopixel_begin"/-->
